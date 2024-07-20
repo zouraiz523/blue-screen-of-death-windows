@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #1268a0;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 100;
+  line-height: 1.75;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+
+  &::before,
+  &::after {
+    width: 80vmin;
+  }
+
+  &::before {
+    content: ":(";
+    font-size: 20vmin;
+  }
+
+  &::after {
+    content: "Your PC ran into a problem and needs to restart. We're just collecting some error info, and then we'll restart for you.";
+    font-size: 3vmin;
+  }
+}
+
+</style>
+</head>
+<body>
+  
+</body>
+</html>
